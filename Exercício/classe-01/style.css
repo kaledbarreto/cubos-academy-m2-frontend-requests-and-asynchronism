@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.red{
+  background-color: rgb(255, 67, 67);
+  border-color: red;
+}
